@@ -1,0 +1,1 @@
+export function Brand({ dark = false }: { dark?: boolean }) { return <span className="brand"><span className="brand-mark" aria-hidden="true">M</span><span className="brand-word">maison motion</span></span>; }
